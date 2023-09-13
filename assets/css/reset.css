@@ -1,0 +1,44 @@
+@import url(/assets/fonts/fonts.css);
+@import url(/assets/css/home.css);
+@import url(/assets/css/page.css);
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  font-family: abel;
+  outline: none;
+}
+a {
+  color: var(--color-black);
+  font-size: 1.6rem;
+  padding: 5px 0;
+  margin-left: 2.6rem !important;
+}
+
+/* Scroll do site personalização  */
+::-webkit-scrollbar { 
+  /* personalizar a barra em geral, aqui estou definindo 30px de largura para a barra vertical
+  e 30px de altura para a barra horizontal */
+    width: 1.2rem;
+    height: 10px;
+
+  }
+  
+  
+  ::-webkit-scrollbar-track { /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza claro*/
+    background: #eee;
+    border-left: 1px solid #215cff1e;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background: var(--color--blue);
+  }
